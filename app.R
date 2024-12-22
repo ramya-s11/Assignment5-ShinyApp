@@ -1,10 +1,8 @@
-# Load required libraries
 library(shiny)
 library(shinydashboard)
 library(ggplot2)
 
-# Load dataset
-data <- read.csv("data/DIG.csv")  # Replace with your actual file path
+data <- read.csv("data/DIG.csv")
 
 # Define UI
 ui <- dashboardPage(
