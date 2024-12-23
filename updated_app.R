@@ -5,7 +5,6 @@ library(dplyr)
 library(corrplot)
 raw_data <- read.csv("data/DIG_cleaned.csv")
 
-
 # Define UI
 ui <- dashboardPage(
   dashboardHeader(title = "DIG Trial Explorer"),
